@@ -13,7 +13,7 @@ def task1(fileName, numofLines):
         
     return ans
 
-print(task1('Sutnic.txt', 5))
+#print(task1('Sutnic.txt', 5))
 
 
 
@@ -26,15 +26,17 @@ def task2(fileName, N1, N2):
 
 def task3(fileName):
     f = open(fileName, "r")
-    words = f.read();
+    words = f.read().split();
+    
+    d_ans = {len(i):i for i in words}
     
     
-     
     
-    return max(words.split())
+    return d_ans[max(d_ans)]
+    
 
 
-#print(task3("mank.txt"))
+print(task3("Sutnic.txt"))
 
 def task4(fileName, listOfWords):
     with open(str(fileName), 'w') as f:
