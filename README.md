@@ -1,29 +1,47 @@
-# PythonFiles
+# Python taks
 
-## ^-^ Some file and some strings tasks ^-^
-1. - Написать функцию, которая принимает путь к файлу(т.е. строку)
-   и число(N) и возвращает первых N строк из файла.
-   Строки, прочитанные из файла следует поместить список. Вывести результат.
-2. - Написать функцию, которая принимает путь к файлу и два числа N1 и N2 и возвращает строку,
-   которая содержит всё, что находится между N1-ым и N2-ым символом из файла. Вывести результат.
-3. - Написать функцию, которая принимает путь к файлу и возвращает
-     самое длинное слово из этого файла. Вывести результат.
-4. - Написать функцию, которая принимает название файла(строку) и список какх-нибудь строк.
-   Функция должна создать файл с д
-   анным названием и записать все строки из списка в файл (все строки должны
-   представляться в файле с новой строки).
-5. - Написать функцию, которая принимает путь к файлу и слово(
-   строку) и проверяет, есть ли такое слово в файле или нет. До
-   лжно вернуть True либо False, в зависимости от успешности поиска. Вывести результат.
-  
-6. - Создать несколько файлов, с любым текстом. Написать функцию, которая принимает путь к файлу 
-   и возвращает словарь, в котором содержится следующая информация:
-   ключами словаря должны быть слова из файла(т.е. какие-то строки из непробельных символов)
-   значениями для каждого слова должно быть число, отражающее кол-во встречаний этого слова в файле
-   Вызвать функцию для всех ранее созданных файлов. Вывести результат.
+## Table of Contents
 
-7. - [Palindrome](https://en.wikipedia.org/wiki/Palindrome).
+- [About](#about)
+- [Getting Started](#getting_started)
+- [Usage](#usage)
+- [Contributing](../CONTRIBUTING.md)
 
-8. - Написать функцию, которая принимает строку и возвращает словарь вида: {'upper': N1, 'lower': N2}, 
-   где N1 и N2 кол-во символов верхнего и нижнего регистров соответственно.
-   Вывести результат.
+## About <a name = "about"></a>
+
+Ну тут как бы разные заметки(аля туториал), чтобы можно было зайти и вспомнить.
+
+## Getting Started <a name = "getting_started"></a>
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+
+### Prerequisites
+тест тест 
+What things you need to install the software and how to install them.
+
+```
+Give examples
+```
+
+### Installing
+
+ну тут пока ничего нету :)
+A step by step series of examples that tell you how to get a development env running.
+
+Say what the step will be
+тест тест 
+```
+Give the example
+```
+тест тест 
+And repeat
+
+```
+until finished
+```
+
+End with an example of getting some data out of the system or using it for a little demo.
+
+## Usage <a name = "usage"></a>
+тест тест 
+Add notes about how to use the system.

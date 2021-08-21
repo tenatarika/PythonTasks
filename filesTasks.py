@@ -36,7 +36,7 @@ def task3(fileName):
     
 
 
-print(task3("Sutnic.txt"))
+#print(task3("Sutnic.txt"))
 
 def task4(fileName, listOfWords):
     with open(str(fileName), 'w') as f:
@@ -48,7 +48,7 @@ def task4(fileName, listOfWords):
     return None
 
 
-#print(task4("Sutnic.txt", ['Aliens', 'BladeRunner', 'Pi', '1=1', 'oldboy']))
+print(task4("Sutnic.txt", ['Aliens', 'BladeRunner', 'Pi', '1=1', 'oldboy']))
 
 def task5(fileName, sWord):
     
